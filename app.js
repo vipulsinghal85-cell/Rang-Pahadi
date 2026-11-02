@@ -135,6 +135,7 @@ function render(){
     el('div',{class:'mandala','aria-hidden':'true',html:MOTIFS[theme.motif]()}),
     el('div',{class:'wrap hero'},
       el('div',null,
+        el('img',{class:'hero-logo',src:'logo-512.png',alt:'',width:'132',height:'132'}),
         el('div',{class:'hero-top'}, el('span',{class:'eyebrow'}, picked ? S.cat : (st.city || 'Dehradun · Uttarakhand')), el('span',{class:'rule'}), el('span',{class:'deva',lang:'hi'},words.deva)),
         el('h1',null, st.name || 'Rang Pahadi Studio'),
         el('div',{class:'sub'}, words.sub),
