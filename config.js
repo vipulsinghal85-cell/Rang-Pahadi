@@ -7,8 +7,8 @@
  * booking through WhatsApp instead.
  */
 window.STUDIO_CONFIG = {
-  SHEET_API_URL: "https://script.google.com/macros/s/AKfy.../exec",
+  SHEET_API_URL: "https://script.google.com/macros/s/AKfycbwG2Gcee2rgA6uiMBcKhx72Ghl8YZsyEsFoOyrn7iSENCqXpKhBUpZRw3hGjvSGrF7o/exec",
 
   // Used only until the Google Sheet is connected (10-digit mobile number).
-  WHATSAPP: ""
+  WHATSAPP: "9654234091"
 };
